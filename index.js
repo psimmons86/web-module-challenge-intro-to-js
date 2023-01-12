@@ -19,8 +19,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
+const votingAge = 36
+if (votingAge > 18){
+  console.log('True')
+} else {
+  console.log ('false')
+}
 
 /*
 Task 1b - Values (not auto tested)
@@ -34,10 +38,14 @@ Do the following:
    HINT: no function required
 */
 
-
-
-
-
+let person = 'patrick'
+let favoriteBand = 'blocParty'
+ if (favoriteBand === 'radiohead') {
+  person = 'patrick' 
+ } else {
+  person = 'someoneElse'
+ }
+console.log(person)
 /*
 Task 1c - Convert Strings to Numbers (not auto tested)
 
@@ -50,7 +58,12 @@ Do the following:
 */
 
 
-
+function convertStoI () {
+  let a = '1999';
+  let b = parseInt(a);
+  console.log(b)
+}
+convertStoI('1999')
 
 /*
 Task 1d - Multiply
